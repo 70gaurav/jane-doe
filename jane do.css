@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 a{
     text-decoration: none;
@@ -12,26 +13,29 @@ a{
     display: flex;
 }
 .left{
-    width: 40%;
+    width: 45%;
 }
 .left img{
     height: 100vh;
-    width: 40%;
+    width:45% ;
     position: fixed;
 }
 .menu{
     padding:15px;
     display: flex;
     justify-content: end;
-    position: sticky;
+    position: fixed;
     top: 0;
+    right: 0;
 }
 .menu i{
     font-size: 40px;
     color: gray;
+    background-color: white;
+    padding: 0.5rem;
 }
 .right{
-    width: 60%;
+    width: 55%;
     padding: 0 1.5rem;
 }
 .section1{
@@ -49,25 +53,32 @@ a{
 }
 .section2 h1{
     font-size: 40px;
-    padding: 1.5rem 0.5rem;
+    color: gray;
+    padding: 1.5rem 0 ;
 }
 .images{
     display: flex;
 }
 .images img{
-    width: 410px;
-    margin: 0.5rem;
+    width: 400px;
+    margin:0.3rem 0.2rem ;
 }
 .section3 h1{
-    padding: 5rem 0.5rem ;
+    padding: 5rem 0 ;
     font-size: 40px;
+    color: gray;
 }
 .section3 p{
-    padding: 0 0.5rem;
+    color: gray;
 }
 .section4 h1{
-    padding: 3rem 0.5rem;
+    padding: 3rem 0;
     font-size: 40px;
+    color: gray;
+}
+.spacing{
+    letter-spacing: 5px;
+    color: gray;
 }
 .photo, .web, .photoshop{
     background-color: rgb(203, 201, 201);
@@ -108,4 +119,139 @@ a{
     padding: 10px 15px;
     color: black;
     background-color: rgb(182, 181, 181);
+}
+.section6{
+    margin-top:2.5rem; 
+}
+.section6 h1{
+    padding: 3rem 0;
+    font-size: 40px;
+    color: gray;
+}
+.section6 p{
+    color: gray;
+}
+.s6{
+    display: flex;
+}
+.s6left img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.bing{
+    display: flex;
+    align-items: center;
+    line-height: 3rem;
+}
+.bing p{
+    padding-left: 1rem;
+}
+.s6right{
+    padding-left: 1rem;
+}
+.price h1{
+    padding: 3rem 0;
+    font-size: 40px;
+    color: gray;
+}
+.table{
+    display: flex;
+    justify-content: space-between;
+}
+.data {
+    width: 24rem;
+    height: 3.5rem;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.broad{
+    width: 24rem;
+    height: 6rem;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.broad1{
+    width: 24rem;
+    height: 6rem;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:gray;
+    color: white;
+}
+.broad2{
+    width: 24rem;
+    height: 6rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.signup{
+    width: 24rem;
+    height: 5rem;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(225, 222, 222);
+}
+.signup a{
+    background-color: white;
+    padding: 0.5rem;
+    color: black;
+}
+.section8 h1{
+    padding: 3rem 0;
+    font-size: 40px;
+    color: gray;
+}
+.section8 i{
+    font-size: 40px;
+    padding-right: 2rem;
+    color: gray;
+}
+.contact{
+    line-height: 5rem;
+}
+.section9{
+    margin-top: 3rem;
+}
+.section9 img{
+    width: 100%;
+}
+.section9 input{
+    width: 100%;
+    height: 3rem;
+    margin: 0.5rem 0;
+}
+.section9 .send input{
+    width: 25%;
+}
+.footer{
+    margin-top: 3rem;
+    background-color: rgb(182, 181, 181);
+    padding: 5rem 0;
+}
+.footer p{
+    text-align: center;
+
+}
+.footer ul{
+    display:flex ;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.footer li{
+    padding: 0.5rem;
 }
