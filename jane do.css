@@ -14,11 +14,11 @@ a{
 }
 .left{
     width: 45%;
+    position: fixed;
 }
 .left img{
     height: 100vh;
-    width:45% ;
-    position: fixed;
+    width:100%;
 }
 .menu{
     padding:15px;
@@ -35,6 +35,7 @@ a{
     padding: 0.5rem;
 }
 .right{
+    margin-left: 45%;
     width: 55%;
     padding: 0 1.5rem;
 }
@@ -59,9 +60,13 @@ a{
 .images{
     display: flex;
 }
-.images img{
-    width: 400px;
-    margin:0.3rem 0.2rem ;
+.leftimages img{
+    width: 391px;
+    margin: 0.3rem 0.3rem 0.3rem 0;
+}
+.rightimages img{
+    width: 391px;
+    margin: 0.3rem 0.3rem 0.3rem 0.3rem;
 }
 .section3 h1{
     padding: 5rem 0 ;
